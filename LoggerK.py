@@ -21,7 +21,7 @@ test_logger.warning('python-logstash: test logstash warning message.')
 # add extra field to logstash message
 extra = {
     'test_string': 'python version: ' + repr(sys.version_info),
-    'test_string': 'Host ' + repr(socket.gethostname())
+    'test_string': 'Host ' + repr(socket.gethostname()),
     'test_boolean': True,
     'test_dict': {'a': 1, 'b': 'c'},
     'test_float': 1.23,
