@@ -2,6 +2,7 @@ import logging
 import logstash
 import os
 import sys
+import socket
 
 
 if 'LOG_HOST' not in os.environ:
