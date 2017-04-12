@@ -42,4 +42,5 @@ while True:
     }
     test_logger.info('python-logstash: test extra fields', extra=extra)
     j += 1
+    #print j
     time.sleep(60)
