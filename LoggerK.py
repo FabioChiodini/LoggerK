@@ -29,3 +29,14 @@ extra = {
     'test_list': [1, 2, '3'],
 }
 test_logger.info('python-logstash: test extra fields', extra=extra)
+
+j=0
+
+while True:
+    # Code executed here
+    extra = {
+    'test_string': 'Iteration ' + $j
+    }
+    test_logger.info('python-logstash: test extra fields', extra=extra)
+    true $(( j++ ))
+    time.sleep(60)
