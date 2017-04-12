@@ -3,6 +3,7 @@ import logstash
 import os
 import sys
 import socket
+import time
 
 
 if 'LOG_HOST' not in os.environ:
